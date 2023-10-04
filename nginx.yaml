@@ -33,6 +33,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: chloealex/trio-nginx:latest
+        image: chloealex/trio-nginx:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80

@@ -7,7 +7,8 @@ metadata:
 spec:
   containers:
   - name: mysql-container
-    image: chloealex/trio-mysql:latest
+    image: chloealex/trio-mysql:v1
+    imagePullPolicy: Always
     ports:
     - containerPort: 3306
     env:

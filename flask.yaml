@@ -33,6 +33,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: chloealex/trio-flask:latest
+        image: chloealex/trio-flask:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
